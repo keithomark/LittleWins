@@ -2,7 +2,6 @@
 
 A modern goal-tracking app with AI-powered step suggestions, built with Vite + React, Firebase Auth, and Gemini AI.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/keiths-projects-b824fd1c/v0-littlewins-app-design)
 
 ## Features
 - Beautiful, modern dashboard UI
