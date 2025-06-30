@@ -1,30 +1,55 @@
-# Littlewins app design
+# LittleWins
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern goal-tracking app with AI-powered step suggestions, built with Vite + React, Firebase Auth, and Gemini AI.
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/keiths-projects-b824fd1c/v0-littlewins-app-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/sBjv4b4ZZYy)
 
-## Overview
+## Features
+- Beautiful, modern dashboard UI
+- Google sign-in (Firebase Auth)
+- Add, view, and track goals
+- Gemini AI integration for automatic step & timeline suggestions
+- Progress tracking, logs, and completion stats
+- Responsive and mobile-friendly
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Getting Started
+
+1. **Clone the repo:**
+   ```sh
+   git clone https://github.com/OtienoKeith/LittleWins.git
+   cd LittleWins/react-vite-app
+   ```
+2. **Install dependencies:**
+   ```sh
+   pnpm install
+   # or
+   npm install
+   ```
+3. **Set up Firebase:**
+   - Update `src/lib/firebase.ts` with your Firebase project config if needed.
+4. **Set up Gemini API:**
+   - Get your Gemini API key from Google AI Studio or Google Cloud Console.
+   - Paste it in `src/lib/gemini.ts`:
+     ```js
+     const GEMINI_API_KEY = 'YOUR_API_KEY_HERE';
+     ```
+5. **Run the app locally:**
+   ```sh
+   pnpm dev
+   # or
+   npm run dev
+   ```
+   Open [http://localhost:5173](http://localhost:5173) (or the port Vite reports).
 
 ## Deployment
 
-Your project is live at:
+The app is deployed at:
+[https://vercel.com/keiths-projects-b824fd1c/v0-littlewins-app-design](https://vercel.com/keiths-projects-b824fd1c/v0-littlewins-app-design)
 
-**[https://vercel.com/keiths-projects-b824fd1c/v0-littlewins-app-design](https://vercel.com/keiths-projects-b824fd1c/v0-littlewins-app-design)**
+## Credits
+- Built with [Vite](https://vitejs.dev/), [React](https://react.dev/), [Firebase](https://firebase.google.com/), and [Gemini AI](https://ai.google.dev/)
+- UI inspired by v0.dev
 
-## Build your app
+---
 
-Continue building your app on:
-
-**[https://v0.dev/chat/projects/sBjv4b4ZZYy](https://v0.dev/chat/projects/sBjv4b4ZZYy)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+For more info, see the [GitHub repo](https://github.com/OtienoKeith/LittleWins).
